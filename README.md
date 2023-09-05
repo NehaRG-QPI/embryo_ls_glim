@@ -3,27 +3,33 @@ The codes in this repository are for the demonstration of our work [1].
 
 **ORGANIZATION**
 
-1.	example_data:
-a.	healthy:
-i.	cropped:  z-scan LS-GLIM images of a healthy embryo
-ii.	new: folder for NPM model predictions
-b.	sick:
-i.	cropped:  z-scan LS-GLIM images of a sick embryo
-ii.	new: folder for NPM model predictions
-c.	sparse_prediction:
-i.	overlapped: z-slice images (3-channel image with interslice distance 1 um) spaced 3 um apart for a live (H/I) embryo
-2.	FBM: Feature based model prediction scripts and trained model
-3.	IBM: Image based model prediction scripts and trained model
-4.	NPM: Nucleus prediction model inference scripts and trained model
-5.	MATLAB-APP: Standalone MATLAB application
+**1.	example_data:**
+  a.	healthy:
+    i.	cropped:  z-scan LS-GLIM images of a healthy embryo
+    ii.	new: folder for NPM model predictions
+  b.	sick:
+    i.	cropped:  z-scan LS-GLIM images of a sick embryo
+    ii.	new: folder for NPM model predictions
+  c.	sparse_prediction:
+    i.	overlapped: z-slice images (3-channel image with interslice distance 1 um) spaced 3 um apart for a live (H/I) embryo
+  	
+**2.	FBM:** Feature based model prediction scripts and trained model
+	
+**3.	IBM:** Image based model prediction scripts and trained model
+
+**4.	NPM:** Nucleus prediction model inference scripts and trained model
+
+**5.	MATLAB-APP:** Standalone MATLAB application
+
 
 
 **REQUIREMENTS**
 
 
-1.	FBM, MATLAB- APP: MATLAB R2022b
-2.	IBM: Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b
-3.	NPM: listed in requirements.txt in embryo_ls_glim-main/NPM
+**1.	FBM:** MATLAB- APP: MATLAB R2022b
+**2.	IBM:** Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b
+**3.	NPM:** listed in requirements.txt in embryo_ls_glim-main/NPM
+
 
 **OPERATING INSTRUCTIONS**
 
