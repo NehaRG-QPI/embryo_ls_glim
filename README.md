@@ -26,9 +26,10 @@ The codes in this repository are for the demonstration of our work [1].
 **REQUIREMENTS**
 
 
-**1.	FBM:** MATLAB- APP: MATLAB R2022b
-**2.	IBM:** Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b
+**1.	FBM:** MATLAB R2022b
+**2.	IBM:** Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b, CUDA 11.3
 **3.	NPM:** listed in requirements.txt in embryo_ls_glim-main/NPM
+**4. MATLAB APP:** standalone app, needs MyAppInstaller_mcr file, developed and tested on x-64 based PC with Windows 10, 64.0 GB RAM, Intel(R) Core(TM) i9-10850K CPU with 10 cores.
 
 
 **OPERATING INSTRUCTIONS**
@@ -73,7 +74,7 @@ This app will only need NPM predictions and IBM z-slice predictions from outside
 
 **ACKNOWLEDGEMENTS/CREDIT**
 
-The NPM model is a modified version (addition of further custom loss and metric) of Efficient-net Unet  segmentation model from https://gitlab.engr.illinois.edu/he44/phase_fl, which is further developed around the Efficient-net Unet segmentation models by https://github.com/qubvel/segmentation_models.
+The NPM model is a modified version (addition of further custom loss and metric) of Efficient-net Unet  segmentation model from https://gitlab.engr.illinois.edu/he44/phase_fl, which is further developed around the Efficient-net Unet segmentation models by https://github.com/qubvel/segmentation_models. All the scripts in the NPM _scripts_ folder are originally developed by https://gitlab.engr.illinois.edu/he44/phase_fl.
 
 
 **SOURCE PUBLICATION**
