@@ -1,0 +1,69 @@
+{
+    "project_name": "emb",
+    "out_goes_to": "sessions",
+    "num_classes": 1,
+    "class_weights": null,
+    "use_pretrained_encoder?": true,
+    "base_num_filters": 8,
+    "backbone_name": "efficientnetb0",
+    "loss_functions": [
+        "mae",
+        "SSIM",
+        "Pearson_v2"
+    ],
+    "loss_ratio": [
+        2,
+        1,
+        0.5
+    ],
+    "scheduler": "cos",
+    "num_epochs": 10,
+    "learning_rate": 0.0001,
+    "batch_size": 1,
+    "checkpoint_period": 5,
+    "verbose": 2,
+    "use_data_generator?": true,
+    "use_preprocessor?": true,
+    "size_divisible": 32,
+    "normal_input": true,
+    "magic_x_in_range": [
+        -0.3,
+        0.3
+    ],
+    "magic_x_out_range": [
+        0,
+        255
+    ],
+    "normal_output": true,
+    "magic_y_in_range": [
+        0,
+        1
+    ],
+    "magic_y_out_range": [
+        0,
+        1
+    ],
+    "y_shift": 0,
+    "y_onehot": false,
+    "augmentation_factor": 2,
+    "sample_data": false,
+    "sample_dim": null,
+    "data_path": "./../data_no_smoothing",
+    "input_dir": "input",
+    "output_dir": "histm_med_output",
+    "train_csv": "train.csv",
+    "val_csv": "val.csv",
+    "test_csv": "test.csv",
+    "special_input": "i1_d2_f1_z33_HILBERT.tif",
+    "train_count": 4265,
+    "val_count": 1434,
+    "test_count": 1407,
+    "identifier": "20220403_165505",
+    "training instance after augmentation": 8530,
+    "model parameters": 10115501,
+    "Training Time": "4.0 hours 55.0 minutes 46.71 seconds",
+    "Average PSNR on val": "35.37150830730834",
+    "Average Pearson on val": "0.7865161519919561",
+    "Average SSIM on val": "0.7709641083945574",
+    "Evaluation on val time": "3.0 minutes 33.52 seconds"
+}

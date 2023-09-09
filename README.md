@@ -26,7 +26,7 @@ The codes in this repository are for the demonstration of our work [1].
 **REQUIREMENTS**
 
 
-**1.	FBM,** **MATLAB- APP:** MATLAB R2022b
+**1.	FBM:** MATLAB- APP: MATLAB R2022b
 **2.	IBM:** Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b
 **3.	NPM:** listed in requirements.txt in embryo_ls_glim-main/NPM
 
