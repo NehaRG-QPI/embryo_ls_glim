@@ -1,0 +1,1 @@
+MATLAB 2022b does not allow volumetric visualizations using volshow in standalone app. The bug has been resolved in 2023b version and the standalone app will be updated in due time.
