@@ -19,7 +19,10 @@ The codes in this repository are for the demonstration of our work [1].
 
 **4.	NPM:** Nucleus prediction model inference scripts and trained model
 
-**5.	MATLAB-APP:** Standalone MATLAB application
+**5.	MATLAB-APP:**  MATLAB application
+
+**6.	MATLAB-APP_standalone:**  MATLAB standalone application
+ 
 
 
 
@@ -29,7 +32,9 @@ The codes in this repository are for the demonstration of our work [1].
 **1.	FBM:** MATLAB R2022b
 **2.	IBM:** Python 3.9.7 and Pytorch 1.11.0, MATLAB R2022b, CUDA 11.3
 **3.	NPM:** listed in requirements.txt in embryo_ls_glim-main/NPM
-**4. MATLAB APP:** standalone app, needs MyAppInstaller_mcr file, developed and tested on x-64 based PC with Windows 10, 64.0 GB RAM, Intel(R) Core(TM) i9-10850K CPU with 10 cores.
+**4. MATLAB APP_standalone:** standalone app, needs MyAppInstaller_mcr file, developed and tested on x-64 based PC with Windows 10, 64.0 GB RAM, Intel(R) Core(TM) i9-10850K CPU with 10 cores.
+**5. MATLAB APP:** needs MATLAB 2022b or higher, developed and tested on x-64 based PC with Windows 10, 64.0 GB RAM, Intel(R) Core(TM) i9-10850K CPU with 10 cores.
+
 
 
 **OPERATING INSTRUCTIONS**
@@ -68,6 +73,7 @@ The embryo level result will be saved as ‘result.csv’ in embryo_ls_glim-main
 MATLAB app can automatically run this prediction and max-voting and show the results graphically as explained in the Supplementary information of [1].
 
 **MATLAB APPLICATION:**
+The installation instructions are provided in the readme files inside each subfolder.
 The operating instructions are provided in the Supplementary information of [1]. Example data for panels Segment and Analyze are embryo_ls_glim-main /example_data/healthy (or sick). Example data for Analyze on few slices is embryo_ls_glim-main /example_data/sparse_prediction.
 This app will only need NPM predictions and IBM z-slice predictions from outside the MATLAB environment and can do the rest of the processing itself.
 
