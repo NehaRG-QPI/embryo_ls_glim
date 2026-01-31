@@ -86,4 +86,4 @@ The NPM model is a modified version (addition of further custom loss and metric)
 
 **SOURCE PUBLICATION**
 
-[1]. Goswami, Neha, et al. "Machine learning assisted health viability assay for mouse embryos with artificial confocal microscopy (ACM)." bioRxiv (2023): 2023-07.
+[1]. Goswami, N., Winston, N., Choi, W. et al. EVATOM: an optical, label-free, machine learning assisted embryo health assessment tool. Commun Biol 7, 268 (2024). https://doi.org/10.1038/s42003-024-05960-w
