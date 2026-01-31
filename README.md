@@ -1,6 +1,6 @@
 The codes in this repository are for the demonstration of our work [1].
 
-
+Example data can be downloaded from here: https://doi.org/10.6084/m9.figshare.24133086
 **ORGANIZATION**
 
 **1.	example_data:**
